@@ -1,0 +1,53 @@
+//Propuesta de la clase Carrera. Pseudocódigo
+
+Inicio_clase Carrera
+    atributos:
+        Pista pista1;
+        Entero noVueltas;
+        Fecha fecha;
+
+        //PROPUESTA: Agregar una tabla Hash que tenga de llave Pista y de valor a un Piloto
+        //ya el piloto tiene implicitamente su clave única
+
+    métodos:
+        //Métodos modificadores de acceso
+
+        //1.
+        INICIO
+            METODO ModificarPista1(Pista pista1) RET: VACÍO
+                Carrera.pista1 = pista1
+        FIN
+
+        //2.
+        INICIO
+            METODO ModificarNoVueltas(Entero noVueltas) RET: VACÍO
+                Carrera.noVueltas = noVueltas
+        FIN
+
+        //3.
+        INICIO
+            METODO ModificarFecha(Fecha fecha) RET: VACÍO
+                Carrera.fecha = fecha
+        FIN
+
+        //Métodos de acceso consultores
+
+        //1.
+        INICIO
+            METODO ObtenerPista1() RET: Pista
+                Retornar Equipo.pista1
+        FIN
+
+        //2.
+        INICIO
+            METODO ObtenerNoVueltas() RET: Entero
+                Retornar Equipo.noVueltas
+        FIN
+
+        //3.
+        INICIO
+            METODO ObtenerFecha() RET: Fecha
+                Retornar Equipo.Fecha
+        FIN
+
+Fin_clase

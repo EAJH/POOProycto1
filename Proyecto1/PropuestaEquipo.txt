@@ -1,0 +1,50 @@
+//Propuesta de la clase Equipo. Pseudocódigo
+
+Inicio_clase Equipo:
+    atributos:
+        Cadena[] patrocinadores;
+        Piloto[] pilotos;
+        Cadena nombreEquipo;
+
+    métodos:
+        //Métodos de acceso modificadores
+
+        //1.
+		INICIO
+			METODO ModificarPatrocinadores(Entero i, Cadena[] patrocinadores) RET: VACÍO
+				Equipo.patrocinadores = patrocinadores[i]
+		FIN
+
+        //2.
+        INICIO
+            METODO ModificarPilotos(Entero i, Piloto[] pilotos) RET: VACÍO
+                Equipo.pilotos = pilotos[i]
+        FIN
+
+        //3.
+        INICIO
+            METODO ModificarNombreEquipo(Cadena nombreEquipo) RET: VACÍO
+                Equipo.nombreEquipo = nombreEquipo
+        FIN
+
+        //Métodos de acceso consultores
+
+        //1.
+        INICIO
+            METODO ObtenerPatrocinadores(Entero i) RET: Cadena
+                Retornar Equipo.patrocinadores[i]
+        FIN
+
+        //2.
+        INICIO
+            METODO ObtenerPilotos(Entero i) RET: Piloto
+                Retornar Equipo.pilotos[i]
+        FIN
+
+        //3.
+        INICIO
+            METODO ObtenerNombreEquipo() RET: Cadena
+                Retornar Equipo.nombreEquipo
+        FIN
+        
+Fin_clase

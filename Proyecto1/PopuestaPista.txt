@@ -1,0 +1,80 @@
+//Propuesta de la clase Pista. Pseudocódigo
+
+Inicio_clase Pista:
+	atributos:
+		Entero longitud;
+		Cadena pais;
+		Fecha fecha;
+		Cadena formaPista;
+		Entero capacidad;
+	
+	métodos:
+		//Métodos de acceso modificadores
+
+		//1.
+		INICIO
+			METODO ModificarLongitud(Entero Longitud) RET: VACÍO
+				Pista.longitud = longitud
+		FIN	
+		
+		//2.
+		INICIO
+			METODO ModificarPais(Cadena pais) RET: VACÍO
+				Pista.pais = pais
+		FIN
+
+		//3.
+		INICIO
+			METODO ModificarFecha(Fecha fecha) RET: VACÍO
+				Pista.fecha = fecha
+		FIN
+
+		//4.
+		INICIO 
+			METODO ModificarFormaPista(Cadena formaPista) RET: VACÍO
+				Pista.formaPista = formaPista
+		FIN
+
+		//5.
+		INICIO
+			METODO ModificarCapacidad(Entero capacidad) RET: VACÍO
+				Pista.capacidad = capacidad
+		FIN
+
+		//Métodos de acceso consultores
+
+		//1.
+		INICIO
+			METODO ObtenerLongitud() RET: Entero
+				Retornar Pista.longitud
+		FIN
+
+		//2.
+		INICIO
+			METODO ObtenerPais() RET: Cadena
+				Retornar Pista.pais
+		FIN
+
+		//3.
+		INICIO
+			METODO ObtenerFecha() RET: Fecha
+				Retornar Pista.fecha
+		FIN
+
+		//4.
+		INICIO
+			METODO ObtenerFormaPista() RET: Cadena
+				Retornar Pista.formaPista
+		FIN
+
+		//5.
+		INICIO
+			METODO ObtenerCapacidad() RET: Entero
+				Retornar Pista.capacidad
+		FIN
+
+Fin_clase
+		
+		
+
+	
